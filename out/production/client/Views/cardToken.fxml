@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="210.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerForTokenization">
+   <TextField fx:id="TxtCardNum" layoutX="130.0" layoutY="60.0" prefHeight="25.0" prefWidth="200.0"/>
+   <Button fx:id="BttnToken" layoutX="250.0" layoutY="160.0" mnemonicParsing="false" onAction="#bttnTokenPressed"
+           prefHeight="35.0" prefWidth="80.0" text="Get Token"/>
+   <Label layoutX="25.0" layoutY="65.0" text="Card number:"/>
+   <Label layoutX="25.0" layoutY="115.0" text="Token:"/>
+   <Label layoutX="116.0" layoutY="14.0" text="CARD TOKEN">
+      <font>
+         <Font size="20.0"/>
+      </font>
+   </Label>
+   <Button fx:id="BttnCardNum" layoutX="130.0" layoutY="160.0" mnemonicParsing="false" onAction="#bttnCardNumPressed"
+           prefHeight="35.0" prefWidth="110.0" text="Get Card Number"/>
+   <TextField fx:id="TxtToken" layoutX="130.0" layoutY="110.0" prefHeight="25.0" prefWidth="200.0"/>
+</AnchorPane>
