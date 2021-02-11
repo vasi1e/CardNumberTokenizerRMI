@@ -12,6 +12,7 @@ JavaFx application with login form and card number/token transformation form.
 The project uses:
 1. XStream jar
 2. JavaFx
+
 So you need to have it
 
 In the file DB.java you need to initialize the varible pathToProjectFolderWithXMLFiles to string with the path to directory in which you store the project
