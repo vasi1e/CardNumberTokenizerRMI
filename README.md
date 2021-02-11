@@ -15,7 +15,7 @@ The project uses:
 
 So you need to have it
 
-In the file DB.java you need to initialize the varible pathToProjectFolderWithXMLFiles to string with the path to directory in which you store the project
+In the file DB.java you need to initialize the variable pathToProjectFolderWithXMLFiles to string with the path to directory in which you store the project
 ## Future ideas for realization
 1. Registration form
 2. Use real database
